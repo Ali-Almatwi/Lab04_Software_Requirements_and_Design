@@ -18,10 +18,12 @@ The selected scenario revolves around converting information from a Universities
 
 1. **Understanding Source Model (Universities):** Identification of key elements such as University and Community classes representing academic and non-academic staff and students.
 
- <img width="363" alt="image" src="https<img width="284" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/8183e7cd-cc80-4fa3-b46a-826e14397521">
-    **Universities.ecore**
+ <img width="363" alt="image" src="https<img width="284" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/8183e7cd-cc80-4fa3-b46a-826e14397521"> 
+
+**Universities.ecore**
 
 <img width="288" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/1b98c3fb-8646-49bc-b357-1cda4db08590">
+  
    **Person.ecore**
 
 3. **Defining Helper Operations:** Introduction of operations like `isEmployee()` for information extraction from the source model.
@@ -61,6 +63,7 @@ The objective in this scenario is to generate Java code from the CatBreedModel U
 1. **Understanding Input Model:** The input model includes essential elements such as base class Cat and derived breed classes.
 
 2. **Generated Code:** The Java code generated from Acceleo templates reflects the translation of UML model elements into executable code.
+   
 <img width="382" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/10f80156-5bfd-4cfd-a32b-e639f44a37e0">
 
 **generate.mtl** 
