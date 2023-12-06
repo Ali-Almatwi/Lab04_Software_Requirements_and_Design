@@ -18,7 +18,7 @@ The selected scenario revolves around converting information from a Universities
 
 1. **Understanding Source Model (Universities):** Identification of key elements such as University and Community classes representing academic and non-academic staff and students.
 
- <img width="363" alt="image" src="https<img width="284" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/8183e7cd-cc80-4fa3-b46a-826e14397521"> 
+<img width="284" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/8183e7cd-cc80-4fa3-b46a-826e14397521"> 
 
 **Universities.ecore**
 
