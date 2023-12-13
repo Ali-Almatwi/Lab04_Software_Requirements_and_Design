@@ -1,4 +1,4 @@
-# Lab 4: Model Transformation and Code Generation
+![image](https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/aadcbb89-77b3-4a99-a63b-36a9bdf0b65b)![image](https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/2c505e55-0fdf-4175-a30b-16810be4fba7)# Lab 4: Model Transformation and Code Generation
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Model-driven engineering (MDE) represents a paradigm shift in software developme
 
 ATL or Atlas Transformation Language serves as a powerful language within the Eclipse Modeling Framework (EMF) for defining transformations between models. The lab commences with an exploration of ATL through a case study, providing knowledge regarding syntax, semantics, and methodologies for crafting transformation rules.
 
-### Model Transformation in the Chosen Scenario: UniversitiesToPerson
+### Model 1 Transformation in the Chosen Scenario: UniversitiesToPerson
 
 The selected scenario revolves around converting information from a Universities model to a Persons model. This involves using ATL's transformation rules to distinguish academic and non-academic staff from students and mapping them to Employees and Students in the target Persons model.
 
@@ -45,6 +45,28 @@ The selected scenario revolves around converting information from a Universities
 <img width="395" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/ee5247cf-18ec-4e07-868d-5ce32d9f53a7">
 
 **sample-person.xmi**
+
+### Model 2 Transformation in the Chosen Scenario: P2P Crypto network 
+
+I started with modelling of P2P Crypto network with one P2P network and 5-10 (variable in number) P2P participating nodes with forward and backward linking in the P2P node-chain. We all know, that this is the model that works for Crypto with Smart Ledger so for this assignment I chose this, still keeping things simple (one P2P network) and 5-10 nodes.
+
+<img width="255" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/e18b23f5-37c0-4408-84fe-f63ea7ec8a50">
+
+
+**P2PEcoreModel.ecore**
+
+<img width="370" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/d6788627-042a-451e-a2a5-7d45f7d5a705">
+
+**P2PNodeEcoreModel.ecore**
+
+### The Defined Helpers
+Here are the helpers defined in **CryptoP2PATL.atl** file:
+<img width="352" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/15a5ab58-0efd-4572-baaf-acae8371a572">
+
+### The Defined Ruels
+And here are the corresponding rules:
+<img width="468" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/c75a7694-0504-49ef-9d9e-c9c870da85e2">
+<img width="359" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/55cf5cc5-ce77-45cb-a5d7-b77bded7fd67">
 
 
 ## Task 2: Code Generation (Acceleo)
