@@ -56,6 +56,7 @@ Acceleo, a model-to-text transformation language, is introduced as a powerful co
 ### Code Generation in the Chosen Scenario: CatBreedModel
 
 The objective in this scenario is to generate Java code from the CatBreedModel UML diagram using Acceleo templates. This involves defining templates for converting UML elements into executable Java code, ensuring a faithful translation of model elements.
+
 <img width="202" alt="image" src="https://github.com/Ali-Almatwi/Lab04_Software_Requirements_and_Design/assets/148684334/f00373fb-8644-4feb-b288-e38ee8206042">
 
 **UML** 
